@@ -17,7 +17,7 @@ public class LogService {
     public String getLogFilter(String filter) throws IOException
     {
         List<String> listLine = Files.readAllLines
-                (Paths.get("..\\SpringBoot\\logJson\\src\\main\\resources\\logs\\log.txt"));
+                (Paths.get("..\\SpringBoot\\src\\main\\resources\\logs\\log.txt"));
 
         Results results = new Results();
 
